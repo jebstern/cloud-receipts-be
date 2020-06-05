@@ -1,7 +1,7 @@
 const Receipt = require("../models/receipt");
 const { OAuth2Client } = require("google-auth-library");
 const token = require("../token");
-const { v4: uuidv4 } = require('uuid');
+const { uuid } = require('uuidv4');
 
 exports.add = function (req, res) {
   console.log("add")
@@ -15,7 +15,7 @@ exports.add = function (req, res) {
     text: receipt.text,
     fileUrl: receipt.fileUrl,
     created: receipt.created,
-    id: uuidv4(),
+    id: uuid(),
   });
   document.save(function (err) {
     if (err) {

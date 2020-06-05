@@ -18,12 +18,12 @@
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.9.16",
     "passport": "^0.4.1",
-    "passport-jwt": "^4.0.0"
+    "passport-jwt": "^4.0.0",
+    "uuidv4": "^6.1.0"
   },
   "devDependencies": {
     "mongo-express": "^0.54.0",
-    "nodemon": "^2.0.4",
-    "uuid": "^8.1.0"
+    "nodemon": "^2.0.4"
   },
   "nodemonConfig": {
     "env": {
