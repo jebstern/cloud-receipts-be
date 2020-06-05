@@ -1,8 +1,8 @@
 {
-  "name": "rdr2map",
+  "name": "cloud-receipts-be",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "start": "node app.js",
     "dev": "env GOOGLE_CLIENTID= nodemon app.js",

@@ -12,6 +12,7 @@ const jwtOptions = {
 
 passport.use(
   new passportJwt.Strategy(jwtOptions, async (payload, done) => {
+    console.log("Get user by id: " + parseInt(payload.sub));
     const user = await users.getUserById(parseInt(payload.sub));
     console.log("passport.user - user");
     console.log(user);
