@@ -23,7 +23,7 @@
   },
   "devDependencies": {
     "mongo-express": "^0.54.0",
-    "nodemon": "^2.0.4"
+    "nodemon": "^2.0.20"
   },
   "nodemonConfig": {
     "env": {
